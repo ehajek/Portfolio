@@ -24,12 +24,13 @@ header {
     flex-wrap: wrap;
     padding: 0px, 10px;
 }
-
-header h1 {
+h1 {
     font-size: 60px;
+    font-weight: lighter;
+}
+header h1 {
     text-align: center;
     color: var(--dark-color);
-    font-weight: lighter;
     background-color: var(--highlight-color);
 }
  
@@ -61,15 +62,13 @@ header h1 {
   .hero {
       background-image: url('../images/Indians.jpeg');
       background-size: cover;
-      display: flex;
-      flex-wrap: wrap;
-      text-align: right;
+ 
       height: 200px;
      
   }
 
  h3 {
-     font-size: 36px;
+     font-size: 30px;
      font-weight: lighter;
  }
 
@@ -77,11 +76,59 @@ header h1 {
   .hero h3 {
     color: var(--dark-color);
     background-color: var(--highlight-color);
-    bottom: 10px;
-    margin: auto;
-    display: flex;
-    padding: 20px;
+    padding: 5px 10px;
     text-align: right;
-
+    float: right;
+    margin: 135px 60px 10px 0;
   }
+
+
+h2 {
+    font-size: 45px;
+    font-weight: lighter;
+    color: var(--bluefont-color);
+    padding: 5px;
+    margin: 20px;
+    border-right: 3px solid var(--bluefont-color);
+    justify-content: left;
+    display: inline;
+}
+
+  article {
+    color: var(--bluefont-color);
+    font-weight: lighter;
+    margin: 30px;
+}
+
+.topics {
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work {
+    background-image: url("../images/900x400.gif");
+    display: flex;
+    height: 440px;
+    width: 930px;
+
+}
+.work img {
+
+}
+.sub-work {
+    background-image: url("../images/440x150.gif");
+    justify-content: center;
+    height: 170px;
+}
+
+.contact  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: var(--bluefont-color);
+    margin-right: 40px;
+}
 

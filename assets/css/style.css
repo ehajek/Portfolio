@@ -62,7 +62,6 @@ header h1 {
   .hero {
       background-image: url('../images/Indians.jpeg');
       background-size: cover;
- 
       height: 200px;
      
   }
@@ -71,6 +70,10 @@ header h1 {
      font-size: 30px;
      font-weight: lighter;
  }
+ h4 {
+    font-size: 15px;
+    font-weight: lighter;
+}
 
 
   .hero h3 {
@@ -94,32 +97,30 @@ h2 {
     display: inline;
 }
 
-  article {
+.topics {
     color: var(--bluefont-color);
     font-weight: lighter;
     margin: 30px;
-}
-
-.topics {
-    justify-content: center;
+    justify-content: left;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
 }
 .work {
-    background-image: url("../images/900x400.gif");
-    display: flex;
-    height: 440px;
-    width: 930px;
-
+    display: inline;
+    justify-content: center;
 }
 .work img {
-
+    border: 5px solid var(--highlight-color);
 }
-.sub-work {
-    background-image: url("../images/440x150.gif");
-    justify-content: center;
-    height: 170px;
+.left_text {
+    position: relative;
+    width: auto;
+    bottom: 90px;
+    background-color: var(--highlight-color);
+    display: table;
+    margin: 0px;
+    padding-left: 30px;
+    color: var(--bluefont-color);
 }
 
 .contact  {

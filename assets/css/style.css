@@ -1,0 +1,87 @@
+:root {
+    --highlight-color: rgb(135,197,198);
+    --bluefont-color: rgb(60,78,107);
+    --dark-color: rgb(43,46,53);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 10px 0px;
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px, 10px;
+}
+
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: var(--dark-color);
+    font-weight: lighter;
+    background-color: var(--highlight-color);
+}
+ 
+  header nav {
+    margin: 20px 20px;
+ 
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: var(--highlight-color);
+    margin-right: 40px;
+    
+  }
+  header nav ul li a {
+    padding: 5px 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    color: var(--highlight-color);
+    text-align: center;
+    border-bottom: 4px solid;
+    margin: 0px 6px;
+  }
+
+  .hero {
+      background-image: url('../images/Indians.jpeg');
+      background-size: cover;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: right;
+      height: 200px;
+     
+  }
+
+ h3 {
+     font-size: 36px;
+     font-weight: lighter;
+ }
+
+
+  .hero h3 {
+    color: var(--dark-color);
+    background-color: var(--highlight-color);
+    bottom: 10px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    text-align: right;
+
+  }
+
